@@ -129,9 +129,7 @@ client.on('message', message => {
      //message.channel.send(data);
      message.channel.send(data, {files: ["Info/Characters/Images/na.png"]});
   }
-  else if (cmd==="soviet"){
-     message.channel.send("hehe", {files: ["ussr.gif"]});
-  }
+
   else{
     message.channel.send("This Command does not exist. Please use f!help");
   }
